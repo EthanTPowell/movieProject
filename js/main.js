@@ -7,8 +7,8 @@ form.addEventListener("submit", (e) => {
     let inputString = input.value
     fetch(`https://www.omdbapi.com/?s=${inputString}&apikey=4e21b89c`)
         .then(response => response.json())
-        // .then(data => console.log(JSON.stringify(data, null, 2)))
-        .then(data => console.log(data.search[0].title))    
+        .then(data => console.log(JSON.stringify(data, null, 2)))
+        // .then(data => console.log(data.search.title))    
     
     
     form.reset()
