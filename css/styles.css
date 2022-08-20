@@ -3,3 +3,28 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+#jumbo{
+    display: flex;
+    justify-content: center;
+}
+#infoCard{
+    display: flex;
+    flex-direction: column;
+
+}
+#titleCard{
+    display: flex;
+    flex-direction: column;   
+}
+.card{
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-evenly;
+}
+.posters{
+    max-width: 50%;
+    height: auto;
+}
+#header{
+    text-align: center;
+}
